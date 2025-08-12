@@ -1,44 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌐 Personal Website — First Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌐 Personal Website — First Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      padding: 20px;
+      background: rgba(0,0,0,0.3);
+      margin-bottom: 30px;
+    }
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    video {
+      width: 300px;
+      border: 3px solid white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.5);
+      transition: transform 0.3s ease;
+    }
+    video:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 14px;
+      background: rgba(0,0,0,0.2);
+    }
+  </style>
 </head>
 <body>
-    <h1>🌐 Personal Website — First Project</h1>
-    <p>This is my first uploaded project as part of my front-end learning journey.</p>
+  <h1>🌐 Personal Website — First Project</h1>
+  <p>This is my first uploaded project as part of my front-end learning journey.</p>
 
-    <h2>🎥 Videos</h2>
-
-    <video width="640" controls>
-        <source src="Recording%20%2312.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+  <h2>🎥 My Videos</h2>
+  <div class="video-container">
+    <video controls>
+      <source src="Recording #12.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
 
-    <video width="640" controls>
-        <source src="Recording%20%233.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video controls>
+      <source src="Recording #3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
 
-    <video width="640" controls>
-        <source src="Recording%20%234.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video controls>
+      <source src="Recording #4.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
 
-    <video width="640" controls>
-        <source src="Recording%20%236.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video controls>
+      <source src="Recording #6.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
 
-    <video width="640" controls>
-        <source src="Recording%20%239.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video controls>
+      <source src="Recording #9.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
 
-    <video width="640" controls>
-        <source src="%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video controls>
+      <source src="مشروعي.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
+  </div>
+
+  <footer>© 2025 My First Project | Designed with ❤️</footer>
 </body>
 </html>
+
