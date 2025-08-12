@@ -11,8 +11,3 @@ This repository contains my first uploaded videos as part of my front-end learni
 - [مشروعي](%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A.mp4)
 
 > Click any link above to watch or download the video.
-
----
-
-## 📝 Notes
-These videos are for **practice purposes** and represent my early steps in front-end development.
